@@ -50,6 +50,8 @@ cacheSolve <- function(x, ...) {
   
   return(inverse)
 }
+## end of cacheSolve
+
 ## test function
 testInverseCache <- function(mat){
   ## Pass a matrix filled with random numbers
@@ -69,6 +71,7 @@ testInverseCache <- function(mat){
   print ("Time taken after caching")
   print(timeTaken)
 }
+## End of testInverseCache
 
 ## Sample Test data
 set.seed(1)
